@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="plusieurs valeurs">
+	<test name="value = 2">
+		<parameter name="value" value="2"></parameter>
+		<classes>
+			<class name="fr.formation.ParamTest"></class>
+		</classes>
+	</test>
+	<test name="value = 4">
+		<parameter name="value" value="4"></parameter>
+		<classes>
+			<class name="fr.formation.ParamTest"></class>
+		</classes>
+	</test>
+	<test name="value = 6">
+		<parameter name="value" value="6"></parameter>
+		<classes>
+			<class name="fr.formation.ParamTest"></class>
+		</classes>
+	</test>
+	<test name="value = 8">
+		<parameter name="value" value="8"></parameter>
+		<classes>
+			<class name="fr.formation.ParamTest"></class>
+		</classes>
+	</test>
+	
+</suite>
+
